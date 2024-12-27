@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 function Navbar() {
   return (
-      <div className='w-full px-10  fixed  bg-black bg-opacity-50  text-white flex items-center justify-between '>
+      <div className='w-full px-10  fixed z-10 bg-black bg-opacity-50  text-white flex items-center justify-between '>
           <div>
               <Link href={'https://djsceietesf.wordpress.com'}
                   target='_blank' rel='noopener noreferrer'
