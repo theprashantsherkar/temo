@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from '@/components/Hero/Hero'
 import Footer from '@/components/Footer/Footer'
 import Navbar from '@/components/Navbar/Navbar'
+import Prizepool from '@/components/Prizepool/Prizepool'
 
 export default function Home() {
   return (
@@ -10,6 +11,8 @@ export default function Home() {
       <div className='text-white h-screen flex items-center justify-center'>
         <Hero />
       </div>
+      <Prizepool />
+
       <Footer />
     </div>
   )

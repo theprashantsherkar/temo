@@ -1,6 +1,6 @@
 export default function Faq() {
     return (
-        <div>
+        <div className="faq h-screen text-white bg-black" id="faq">
             FAQ
         </div>
     )

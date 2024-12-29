@@ -1,6 +1,6 @@
 export default function Timeline(){
     return (
-        <div>
+        <div className="timeline h-screen text-white bg-black" id="timeline">
             Timeline
         </div>
     )
