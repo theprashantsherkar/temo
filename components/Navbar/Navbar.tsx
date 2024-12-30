@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 // import Link from 'next/link';
 
 
@@ -25,7 +25,6 @@ function Navbar() {
                     <a href='https://djsceietesf.wordpress.com' className='text-lg font-semibold'>About Us</a>
                     <a href='#' className='text-lg font-bold'>Projects</a>
                 </div>
-
             </div>
             <div>
                 <div className='sm:hidden  w-full flex items-center justify-between bg-black bg-opacity-50 text-white'>
@@ -59,9 +58,8 @@ function Navbar() {
                     </div>
                 </div>
             </div>
-
         </nav>
-    )
-}
+    );
+};
 
 export default Navbar;
