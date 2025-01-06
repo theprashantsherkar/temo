@@ -1,17 +1,66 @@
 import AnswerOfFaq from "../custom/AnswerOfFaq";
+import {
+    Accordion,
+    AccordionContent,
+    AccordionItem,
+    AccordionTrigger,
+} from "@/components/ui/accordion"
 
 export default function Faq() {
     return (
-        <div className="faq h-screen text-white w-full  bg-black flex flex-row items-center justify-center gap-16" id="faq">
-            <div className="flex flex-col items-center justify-center  w-full">
-                <AnswerOfFaq question="Who can participate?" answer="The hackathon is open for Engineering students from all over India."/>
-                <AnswerOfFaq question="What expenses do I need to cover?" answer="You need to cover only travel expenses. Food and accommodation will be provided during the 24 hours."/>
-                <AnswerOfFaq question="How will the participants be selected?" answer="Participant Teams will be selected through the Resume Shortlisting Round."/>
-            </div>
-            <div className="flex flex-col items-center justify-center  w-full">
-                <AnswerOfFaq question="How can I apply?" answer="The registration would be simply done by just clicking the Register button above."/>
-                <AnswerOfFaq question="Can I participate as an individual?" answer="No, This is a Team Hackathon. Your Team can consist of 2 to 4 members."/>
-                <AnswerOfFaq question="What if I don't know how to code?" answer="Learning to code is not required; non-technical participants can contribute ideas and domain knowledge."/>
+        <div className="flex items-center justify-center flex-col bg-black text-white w-full h-screen gap-8">
+
+            <h2 className="text-3xl font-semibold bg-black w-full text-center  text-white">Frequently asked questions</h2>
+
+            <div className="faq  text-white w-full px-7  bg-black flex flex-row items-center justify-center gap-16" id="faq">
+                <div className="flex flex-col items-center justify-center  w-1/2">
+                    <Accordion type="single" collapsible className="w-full">
+                        <AccordionItem value="item-1">
+                            <AccordionTrigger>Is it accessible?</AccordionTrigger>
+                            <AccordionContent>
+                                Yes. It adheres to the WAI-ARIA design pattern.
+                            </AccordionContent>
+                        </AccordionItem>
+                        <AccordionItem value="item-2">
+                            <AccordionTrigger>Is it styled?</AccordionTrigger>
+                            <AccordionContent>
+                                Yes. It comes with default styles that matches the other
+                                components&apos; aesthetic.
+                            </AccordionContent>
+                        </AccordionItem>
+                        <AccordionItem value="item-3">
+                            <AccordionTrigger>Is it animated?</AccordionTrigger>
+                            <AccordionContent>
+                                Yes. It&apos;s animated by default, but you can disable it if you
+                                prefer.
+                            </AccordionContent>
+                        </AccordionItem>
+                    </Accordion>
+                </div>
+                <div className="flex flex-col items-center justify-center  w-1/2">
+                    <Accordion type="single" collapsible className="w-full">
+                        <AccordionItem value="item-1">
+                            <AccordionTrigger>Is it accessible?</AccordionTrigger>
+                            <AccordionContent>
+                                Yes. It adheres to the WAI-ARIA design pattern.
+                            </AccordionContent>
+                        </AccordionItem>
+                        <AccordionItem value="item-2">
+                            <AccordionTrigger>Is it styled?</AccordionTrigger>
+                            <AccordionContent>
+                                Yes. It comes with default styles that matches the other
+                                components&apos; aesthetic.
+                            </AccordionContent>
+                        </AccordionItem>
+                        <AccordionItem value="item-3">
+                            <AccordionTrigger>Is it animated?</AccordionTrigger>
+                            <AccordionContent>
+                                Yes. It&apos;s animated by default, but you can disable it if you
+                                prefer.
+                            </AccordionContent>
+                        </AccordionItem>
+                    </Accordion>
+                </div>
             </div>
         </div>
     )
