@@ -1,4 +1,4 @@
-import AnswerOfFaq from "../custom/AnswerOfFaq";
+
 import {
     Accordion,
     AccordionContent,
