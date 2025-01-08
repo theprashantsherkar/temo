@@ -7,7 +7,7 @@ export default function Hero() {
     return (
         <div className="flex items-center justify-center flex-col gap-6 mx-9">
             <BoxReveal duration={0.5} boxColor='#5046e6'>
-                <img alt="logo" className="oscillatey scale-50 h-[150px]" src="unplugged.png" />
+                <img alt="logo" className="oscillatey scale-50 h-[150px]" src="UNPLUGGED.png" />
             </BoxReveal>
             <BoxReveal duration={0.7} boxColor='#5046e6'>
 
