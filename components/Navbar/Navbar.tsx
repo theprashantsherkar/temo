@@ -14,7 +14,7 @@ function Navbar() {
                     <a href={'https://djsceietesf.wordpress.com'}
                         target='_blank' rel='noopener noreferrer'
                     >
-                        <img className='h-[100px] w-[100px] scale-150 ml-6' src="logo.png" alt="" />
+                        <img className='h-[90px] w-[110px] scale-150 ml-6 py-4' src='logo.png' alt="DJS IETE-ISF" />
                     </a>
                 </div>
                 <div className='flex items-center j ustify-center gap-6'>
@@ -28,11 +28,11 @@ function Navbar() {
             </div>
             <div>
                 <div className='sm:hidden  w-full flex items-center justify-between bg-black bg-opacity-50 text-white'>
-                    <div>
+                    <div className='w-fit-content flex items-center justify-center gap-6'>
                         <a href={'https://djsceietesf.wordpress.com'}
                             target='_blank' rel='noopener noreferrer'
                         >
-                            <img className='h-[100px] w-[100px] scale-150 ml-6' src="logo.png" alt="" />
+                            <img className='scale-50 ml-6' src="logo.png" alt="this is a logo" />
                         </a>
                     </div>
                     <div>

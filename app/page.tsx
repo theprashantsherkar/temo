@@ -7,18 +7,21 @@ import Prizepool from '@/components/Prizepool/Prizepool'
 import Faq from '@/components/FAQ/Faq'
 // import Timeline from '@/components/Timeline/TimelineDemo'
 import TimelineDemo from '@/components/Timeline/TimelineDemo'
+import Sponsors from '@/components/sponsors/Sponsors'
+
 
 
 
 export default function Home() {
 
   return (
-    <div className='h-screen bg-slate-700 '>
+    <div className='h-screen bg-black '>
       <Navbar />
       <div className='text-white h-screen flex items-center justify-center'>
         <Hero />
       </div>
-      <TimelineDemo/>
+      <Sponsors />
+      <TimelineDemo />
       <Prizepool />
       <Faq />
       <Footer />
