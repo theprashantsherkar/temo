@@ -1,11 +1,11 @@
 import RegisterBtn from '../RegsterBtn/RegisterBtn'
 import './heroStyle.css'
 import BoxReveal from '@/components/ui/box-reveal'
-
+import '../../app/globals.css'
 
 export default function Hero() {
     return (
-        <div className="flex items-center justify-center flex-col gap-6 mx-9">
+        <div className="flex items-center justify-center flex-col gap-6 mx-9 h-screen heroBg" >
             <BoxReveal duration={0.5} boxColor='#5046e6'>
                 <img alt="logo" className="oscillatey scale-50 h-[150px]" src="UNPLUGGED.png" />
             </BoxReveal>

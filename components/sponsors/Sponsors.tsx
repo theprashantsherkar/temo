@@ -2,6 +2,7 @@ import { cn } from "@/lib/utils"
 import Marquee from "@/components/ui/marquee";
 import { sponsorsList } from "./list";
 import Image from "next/image";
+import Link from "next/link";
 
 const firstRow = sponsorsList.slice(0, sponsorsList.length / 2);
 const secondRow = sponsorsList.slice(sponsorsList.length / 2);
@@ -26,7 +27,7 @@ const SponsorCard = ({
             )}
         >
             <div className="flex flex-col items-center gap-2 border border-white rounded-xl py-6 shadow-inner shadow-white">
-                <Image src={logo} alt={`${name} logo`} width={64} height={64} className="scale-150"/>
+                <Image src={logo} alt={`${name} logo`} width={64} height={64} className="scale-150" />
                 <div className="flex flex-col">
                     <figcaption className="text-sm font-medium dark:text-white">
                         {name}
@@ -60,9 +61,9 @@ export default function Sponsors() {
                 </Marquee>
 
             </div>
-            <button className="bg-blue-600 text-white font-semibold py-3 px-5 rounded-md">
+            <Link href={'/sponsor'} className="bg-blue-600 text-white font-semibold py-3 px-5 rounded-md">
                 Become a sponsor
-            </button>
+            </Link>
         </div>
     )
 }

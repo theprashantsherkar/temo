@@ -15,11 +15,9 @@ import Sponsors from '@/components/sponsors/Sponsors'
 export default function Home() {
 
   return (
-    <div className='h-screen bg-black '>
+    <div className=' '>
       <Navbar />
-      <div className='text-white h-screen flex items-center justify-center'>
-        <Hero />
-      </div>
+     <Hero/>
       <Sponsors />
       <TimelineDemo />
       <Prizepool />
