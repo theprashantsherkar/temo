@@ -10,11 +10,14 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.timelineBg{
+  background-image: url('/timelinebg1.jpg');
+}
+
 .heroBg{
   background-color: black;
   background: url('/heroBg.jpg') no-repeat center center/cover;
-backdrop-filter: blur(50px);
-
+  backdrop-filter: blur(50px);
 }
 
 @layer base {

@@ -5,13 +5,13 @@ import '../../app/globals.css'
 
 export default function Hero() {
     return (
-        <div className="flex items-center justify-center flex-col gap-6 mx-9 h-screen heroBg" >
+        <div className="flex items-center justify-center flex-col gap-6 heroBg w-full h-screen bg-black" >
             <BoxReveal duration={0.5} boxColor='#5046e6'>
                 <img alt="logo" className="oscillatey scale-50 h-[150px]" src="UNPLUGGED.png" />
             </BoxReveal>
             <BoxReveal duration={0.7} boxColor='#5046e6'>
 
-            <div className="text-xl text-center">
+            <div className="text-xl text-center text-white">
                 A 24 hour hardware hackathon for the tech enthusiasts all over the country.
             </div>
             </BoxReveal>
