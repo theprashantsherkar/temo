@@ -12,7 +12,7 @@ export default function Hero() {
             <BoxReveal duration={0.7} boxColor='#5046e6'>
 
             <div className="text-xl text-center text-white">
-                A 24 hour hardware hackathon for the tech enthusiasts all over the country.
+                A 24-Hour Hardware Hackathon for tech enthusiasts across the country.
             </div>
             </BoxReveal>
             <BoxReveal duration={0.9} boxColor='#5046e6'>

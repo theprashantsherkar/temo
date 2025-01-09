@@ -5,7 +5,7 @@ import { Timeline } from "@/components/ui/timeline";
 export default function TimelineDemo() {
     const data = [
         {
-            title: "Registration Starts",
+            title: "/stations/borivali.jpg",
             content: (
                 <div className="flex flex-col items-start justify-center gap-9">
                     <h1 className="text-3xl   font-bold text-black dark:text-neutral-500">Registration Starts</h1>
@@ -22,7 +22,7 @@ export default function TimelineDemo() {
             ),
         },
         {
-            title: "Round 1: PPT Submission ",
+            title: "/stations/andheri.jpg",
             content: (
                 <div className="flex flex-col items-start justify-center gap-9">
                     <h1 className="text-3xl   font-bold text-black dark:text-neutral-500">Round 1: PPT Submission </h1>
@@ -37,7 +37,7 @@ export default function TimelineDemo() {
             ),
         },
         {
-            title: "Round 2: The First Challenge Awaits",
+            title: "/stations/dadar.jpg",
             content: (
                 <div className="flex flex-col items-start justify-center gap-9">
                     <h1 className="text-3xl   font-bold text-black dark:text-neutral-500">Round 2: The First Challenge Awaits </h1>
@@ -52,7 +52,7 @@ export default function TimelineDemo() {
             ),
         },
         {
-            title: "Round 3: Demo Presentations & Mentoring",
+            title: "/stations/churchgate.jpg",
             content: (
                 <div className="flex flex-col items-start justify-center gap-9">
                     <h1 className="text-3xl   font-bold text-black dark:text-neutral-500">Round 3: Demo Presentations & Mentoring</h1>
