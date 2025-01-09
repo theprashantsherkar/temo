@@ -10,8 +10,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.timelineBg{
-  background-image: url('/timelinebg1.jpg');
+.prizepoolBg{
+  background-image: url('/timelinebg2.jpg');
+  backdrop-filter: blur(50px);
+
 }
 
 .heroBg{

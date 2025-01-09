@@ -20,7 +20,7 @@ export default function Faq() {
                         {qnaList1.map((qna) => (
                             <AccordionItem key={qna.id} value={qna.question}>
                                 <AccordionTrigger className="text-xl">{qna.question}</AccordionTrigger>
-                                <AccordionContent className="text-xl text-green-500">{qna.answer}</AccordionContent>
+                                <AccordionContent className="text-xl text-sky-300">{qna.answer}</AccordionContent>
                             </AccordionItem>
                         ))}
                     </Accordion>
@@ -30,7 +30,7 @@ export default function Faq() {
                         {qnaList2.map((qna) => (
                             <AccordionItem key={qna.id} value={qna.question}>
                                 <AccordionTrigger className="text-xl">{qna.question}</AccordionTrigger>
-                                <AccordionContent className="text-xl text-green-500">{qna.answer}</AccordionContent>
+                                <AccordionContent className="text-xl text-sky-300">{qna.answer}</AccordionContent>
                             </AccordionItem>
                         ))}
                     </Accordion>

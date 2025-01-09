@@ -38,7 +38,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
     >
       <div className="w-full flex items-center justify-center flex-col  pt-16 px-4 md:px-8 lg:px-10">
         <motion.h2
-          className="text-lg md:text-4xl mb-4 text-black text-center dark:text-white font-semibold "
+          className="text-lg md:text-4xl mb-4 text-black text-center dark:text-white font-bold "
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}

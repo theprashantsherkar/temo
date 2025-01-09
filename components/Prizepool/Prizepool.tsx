@@ -13,17 +13,17 @@ export default function Prizepool() {
     });
 
     return (
-        <div className="prizepool h-screen text-white bg-black flex gap-6 flex-col items-center justify-center " id="prizepool">
-            <h1 className="text-3xl font-semibold oscillatey my-7">Prizepool</h1>
+        <div className="prizepool h-screen text-white bg-black prizepoolBg flex gap-6 flex-col items-center justify-center " id="prizepool">
+            <h1 className="text-3xl text-black font-semibold oscillatey my-7">Prizepool</h1>
             <div>
-                <Badge data-aos="fade-left" label="1st Prize" />
+                <Badge label="1st Prize" image="/prize/first.png" />
             </div>
             <div className="flex sm:flex-row flex-col items-center justify-center gap-6 sm:gap-12">
                 <div>
-                    <Badge label="2nd Prize"/>
+                    <Badge label="2nd Prize" image="/prize/second.png" />
                 </div>
                 <div>
-                    <Badge label="3nd Prize"/>
+                    <Badge label="3nd Prize" image="/prize/third.png" />
                 </div>
             </div>
         </div>
