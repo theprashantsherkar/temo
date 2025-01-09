@@ -9,7 +9,7 @@ function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
     return (
         <nav>
-            <div className='sm:w-full sm:px-10 hidden  sm:fixed sm:z-10 sm: bg-black sm:bg-opacity-50  sm:text-white sm:flex sm:items-center sm:justify-between '>
+            <div className='sm:w-full sm:px-10 hidden  sm:fixed sm:z-50 sm: bg-black sm:bg-opacity-50  sm:text-white sm:flex sm:items-center sm:justify-between '>
                 <div>
                     <a href={'https://djsceietesf.wordpress.com'}
                         target='_blank' rel='noopener noreferrer'
@@ -18,12 +18,12 @@ function Navbar() {
                     </a>
                 </div>
                 <div className='flex items-center j ustify-center gap-6'>
-                    <a href='#timeline' className='text-lg font-semibold'>Timeline</a>
-                    <a href='#prizepool' className='text-lg font-semibold'>Prizepool</a>
-                    <a href='#faq' className='text-lg font-semibold'>FAQs</a>
-                    <a href='#contact' className='text-lg font-semibold'>Contact Us</a>
-                    <a href='https://djsceietesf.wordpress.com' className='text-lg font-semibold'>About Us</a>
-                    <a href='#' className='text-lg font-bold'>Projects</a>
+                    <a href='#timeline' className='text-lg font-semibold hover:text-sky-400 hover:translate-x-2 transition-all'>Timeline</a>
+                    <a href='#prizepool' className='text-lg font-semibold hover:text-sky-400 hover:translate-x-2 transition-all'>Prizepool</a>
+                    <a href='#faq' className='text-lg font-semibold hover:text-sky-400 hover:translate-x-2 transition-all'>FAQs</a>
+                    <a href='#contact' className='text-lg font-semibold hover:text-sky-400 hover:translate-x-2 transition-all'>Contact Us</a>
+                    <a href='https://djsceietesf.wordpress.com' className='text-lg font-semibold hover:text-sky-400 hover:translate-x-2 transition-all'>About Us</a>
+                    <a href='#' className='text-lg font-bold hover:text-sky-400 hover:translate-x-2 transition-all'>Projects</a>
                 </div>
             </div>
             <div>

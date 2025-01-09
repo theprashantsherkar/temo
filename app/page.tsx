@@ -15,7 +15,7 @@ import Sponsors from '@/components/sponsors/Sponsors'
 export default function Home() {
 
   return (
-    <div className=' bg-black'>
+    <div className=' bg-black '>
       <Navbar />
      <Hero/>
       <Sponsors />

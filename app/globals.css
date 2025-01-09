@@ -12,6 +12,7 @@ body {
 
 .prizepoolBg{
   background-image: url('/timelinebg2.jpg');
+  
   backdrop-filter: blur(50px);
 
 }
