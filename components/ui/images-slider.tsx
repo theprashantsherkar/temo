@@ -42,6 +42,7 @@ export const ImagesSlider = ({
 
   const loadImages = () => {
     setLoading(true);
+    console.log(loading);
     const loadPromises = images.map((image) => {
       return new Promise((resolve, reject) => {
         const img = new Image();
@@ -70,7 +71,7 @@ export const ImagesSlider = ({
     window.addEventListener("keydown", handleKeyDown);
 
     // autoplay
-    let interval: any;
+    let interval: unknown;
     if (autoplay) {
       interval = setInterval(() => {
         handleNext();
