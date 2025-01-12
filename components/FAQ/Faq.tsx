@@ -12,7 +12,7 @@ export default function Faq() {
     return (
         <div id="faq" className="flex items-center justify-center flex-col bg-black text-white w-full h-screen gap-14">
 
-            <h2 className="text-3xl font-semibold bg-black w-full text-center  text-white">FAQ's</h2>
+            <h2 className="text-3xl font-semibold bg-black w-full text-center  text-white">FAQ&apos;s</h2>
 
             <div className="faq  text-white w-full px-7  bg-black flex sm:flex-row flex-col  items-center justify-center gap-16" >
                 <div className="flex flex-col items-center justify-center  w-1/2">
