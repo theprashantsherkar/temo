@@ -1,14 +1,17 @@
-import Navbar from '@/components/Navbar/Navbar';
+
 import Sponsors from '@/components/sponsors/Sponsors';
 import React from 'react'
 import RetroGrid from '@/components/ui/retro-grid';
 import { HoverEffect } from '@/components/ui/card-hover-effect';
+import Image from 'next/image';
 
 
 function Page() {
     return (
         <>
-            <Navbar />
+            <div className='fixed w-full bg-black flex items-center justify-center  z-50 pt-5 '>
+                <Image src={'/logo.png'} alt='IETE-ISF' width={200} height={150} />
+            </div>
             <div className='h-[120vh] gap-8 bg-black text-white flex flex-col items-center  justify-center'>
                 <h1 className='text-3xl font-semibold '>Sponsor <span className='text-sky-300'>UNPLUGGED 2.0</span> </h1>
                 <div className=' w-2/3 flex flex-col items-center justify-center text-center' >

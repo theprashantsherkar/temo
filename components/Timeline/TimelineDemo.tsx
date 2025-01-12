@@ -1,8 +1,15 @@
+'use client';
 
 import React from "react";
 import { Timeline } from "@/components/ui/timeline";
+import Button from "../custom/Button";
+import { useRouter } from "next/navigation";
+
 
 export default function TimelineDemo() {
+
+    const router = useRouter();
+
     const data = [
         {
             title: "/stations/borivali.jpg",
@@ -14,9 +21,7 @@ export default function TimelineDemo() {
 
                     </p>
 
-                    <button className="bg-blue-600 text-white font-semibold py-3 px-5 rounded-md">
-                        Register now!
-                    </button>
+                    <Button label="Register Now" handler={() => router.push("https://unstop.com/p/unplugged-20-a-24-hour-hardware-hackathon-shri-vile-parle-kelavani-mandals-dwarkadas-j-sanghvi-college-of-engineering--1312122")}/>
 
                 </div>
             ),
@@ -70,6 +75,7 @@ export default function TimelineDemo() {
         },
     ];
     return (
+        
         <div className="w-full " id="timeline">
             <Timeline data={data} />
         </div>

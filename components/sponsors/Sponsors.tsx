@@ -1,8 +1,10 @@
+'use client';
 import { cn } from "@/lib/utils"
 import Marquee from "@/components/ui/marquee";
 import { sponsorsList } from "./list";
 import Image from "next/image";
-import Link from "next/link";
+import Button from "../custom/Button";
+import { useRouter } from "next/navigation";
 
 const firstRow = sponsorsList.slice(0, sponsorsList.length / 2);
 const secondRow = sponsorsList.slice(sponsorsList.length / 2);
@@ -40,6 +42,7 @@ const SponsorCard = ({
 
 
 export default function Sponsors() {
+    const router = useRouter();
     return (
         <div className="sponsors text-white p-10 h-[120vh] bg-black w-full flex flex-col items-center justify-center gap-4" id="sponsors">
             <h1 className="text-4xl font-semibold text-center">
@@ -61,9 +64,7 @@ export default function Sponsors() {
                 </Marquee>
 
             </div>
-            <Link href={'/sponsor'} className="bg-blue-600 text-white font-semibold py-3 px-5 rounded-md">
-                Become a sponsor
-            </Link>
+            <Button label="Become a sponsor" handler={() => router.push("/sponsor")} />
         </div>
     )
 }
