@@ -13,8 +13,8 @@ function Navbar() {
             <div className='sm:w-full sm:px-10 hidden  sm:fixed sm:z-50 sm: bg-black sm:bg-opacity-50  sm:text-white sm:flex sm:items-center sm:justify-between '>
                 <div className='flex items-center justify-between gap-6'>
                     {logos.map((item) => (
-                        <div>
-                            <Link href={item.link}
+                        <div key={item.id}>
+                            <Link href={item.link} 
                                 target='_blank' rel='noopener noreferrer'
                             >
                                 <img className={item.utilityClasses} src={item.logo} alt={item.alt} />
@@ -71,16 +71,19 @@ export default Navbar;
 
 
 const logos: logoProps[] = [{
+    id:1,
     link:"https://djsceietesf.wordpress.com",
     logo: '/logo.png',
     alt: 'DJS IETE-ISF',
     utilityClasses:"h-[90px] w-[110px] scale-150 ml-6 py-4"
 }, {
+    id:2,
     link:"https://djsce.ac.in",
     logo: "/djsce.png",
     alt: 'DJSCE',
     utilityClasses:"h-[70px] w-[70px] ml-6"
     }, {
+        id:3,
     link:"",
     logo: '/svkm.png',
     alt: 'SVKM',
@@ -89,6 +92,7 @@ const logos: logoProps[] = [{
 
 
 interface logoProps {
+    id: number;
     link: string;
     logo: string;
     alt: string;
