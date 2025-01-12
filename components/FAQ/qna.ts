@@ -7,7 +7,7 @@ interface qnaProps {
 export const qnaList1: qnaProps[] = [
     {
         id: 1,
-        question: 'Accommodation of those who aren’t advancing to Round 3:',
+        question: "Accommodation of those who aren't advancing to Round 3:",
         answer: 'Accommodation will be provided for participants not advancing to Round 3, but they will need to pay for it.  '
     },
     {
