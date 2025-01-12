@@ -1,21 +1,26 @@
 'use client';
 
 import React, { useState } from 'react';
-// import Link from 'next/link';
+import Link from 'next/link';
 
 
 function Navbar() {
 
     const [isOpen, setIsOpen] = useState(false);
+
     return (
         <nav>
             <div className='sm:w-full sm:px-10 hidden  sm:fixed sm:z-50 sm: bg-black sm:bg-opacity-50  sm:text-white sm:flex sm:items-center sm:justify-between '>
-                <div>
-                    <a href={'https://djsceietesf.wordpress.com'}
-                        target='_blank' rel='noopener noreferrer'
-                    >
-                        <img className='h-[90px] w-[110px] scale-150 ml-6 py-4' src='logo.png' alt="DJS IETE-ISF" />
-                    </a>
+                <div className='flex items-center justify-between gap-6'>
+                    {logos.map((item) => (
+                        <div>
+                            <Link href={item.link}
+                                target='_blank' rel='noopener noreferrer'
+                            >
+                                <img className={item.utilityClasses} src={item.logo} alt={item.alt} />
+                            </Link>
+                        </div>
+                    ))}
                 </div>
                 <div className='flex items-center j ustify-center gap-6'>
                     <a href='#timeline' className='text-lg font-semibold hover:text-sky-400 hover:translate-x-2 transition-all'>Timeline</a>
@@ -63,3 +68,29 @@ function Navbar() {
 };
 
 export default Navbar;
+
+
+const logos: logoProps[] = [{
+    link:"https://djsceietesf.wordpress.com",
+    logo: '/logo.png',
+    alt: 'DJS IETE-ISF',
+    utilityClasses:"h-[90px] w-[110px] scale-150 ml-6 py-4"
+}, {
+    link:"https://djsce.ac.in",
+    logo: "/djsce.png",
+    alt: 'DJSCE',
+    utilityClasses:"h-[70px] w-[70px] ml-6"
+    }, {
+    link:"",
+    logo: '/svkm.png',
+    alt: 'SVKM',
+    utilityClasses:"h-[70px] w-[70px] "
+}];
+
+
+interface logoProps {
+    link: string;
+    logo: string;
+    alt: string;
+    utilityClasses: string;
+}

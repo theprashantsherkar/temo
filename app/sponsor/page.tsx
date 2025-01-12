@@ -4,15 +4,19 @@ import React from 'react'
 import RetroGrid from '@/components/ui/retro-grid';
 import { HoverEffect } from '@/components/ui/card-hover-effect';
 import Image from 'next/image';
+import Link from 'next/link';
 
 
 function Page() {
     return (
         <>
-            <div className='fixed w-full bg-black flex items-center justify-center  z-50 pt-5 '>
-                <Image src={'/logo.png'} alt='IETE-ISF' width={200} height={150} />
+            <div className='fixed w-full bg-black flex items-center justify-center gap-8 z-50 p-5    '>
+                <Link href={'https://djsunplugged.vercel.app'} className='flex items-center justify-center gap-9'>
+                    <Image src={'/logo.png'} alt='IETE-ISF' width={200} height={150} />
+                    <Image src={'/UNPLUGGED.png'} alt='IETE-ISF' width={250} height={200} className='scale-125' />
+                </Link>
             </div>
-            <div className='h-[120vh] gap-8 bg-black text-white flex flex-col items-center  justify-center'>
+            <div className='h-[130vh] gap-8 bg-black text-white flex flex-col items-center  justify-center'>
                 <h1 className='text-3xl font-semibold '>Sponsor <span className='text-sky-300'>UNPLUGGED 2.0</span> </h1>
                 <div className=' w-2/3 flex flex-col items-center justify-center text-center' >
                     <h1 className='text-xl font-semibold'>What is <span className='text-sky-300'>UNPLUGGED 2.0?</span></h1>
