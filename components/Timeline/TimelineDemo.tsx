@@ -31,7 +31,7 @@ export default function TimelineDemo() {
 
                     </p>
                     <p className="text-black-800 dark:text-neutral-200 text-lg  font-medium mb-8">
-                        Teams must submit a well-crafted PPT that clearly presents their approach& solution. This submission is critical to secure your spot in the next stage of this electrifying hackathon.
+                        Teams must submit a well-crafted PPT that clearly presents their approach & solution. This submission is critical to secure your spot in the next stage of this electrifying hackathon.
                     </p>
                 </div>
             ),

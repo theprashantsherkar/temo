@@ -38,7 +38,7 @@ function Page() {
                 <div className='w-3/4 mx-auto'>
                     <HoverEffect items={poc} />
                 </div>
-                <h1 className='font-semibold text-white text-2xl'>Or Mail us at: <a href="mailto:djsceiete2024@gmail.com">djsceiete2024@gmail.com</a></h1>
+                <h1 className='font-semibold text-white text-2xl'>Or Mail us at: <a href="mailto:office.djsceiete@gmail.com">office.djsceiete@gmail.com</a></h1>
             </div>
             <Sponsors />
         </>
