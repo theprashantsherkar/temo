@@ -34,11 +34,16 @@ function Navbar() {
             <div>
                 <div className='sm:hidden  w-full flex items-center justify-between bg-black bg-opacity-50 text-white'>
                     <div className='w-fit-content flex items-center justify-center gap-6'>
-                        <a href={'https://djsceietesf.wordpress.com'}
-                            target='_blank' rel='noopener noreferrer'
-                        >
-                            <img className='scale-50 ml-6' src="logo.png" alt="this is a logo" />
-                        </a>
+                        {/* kb */}
+                        {logos.map((item) => (
+                            <div key={item.id}>
+                                <Link href={item.link}
+                                    target='_blank' rel='noopener noreferrer'
+                                >
+                                    <img className={item.utilityClasses} src={item.logo} alt={item.alt} />
+                                </Link>
+                            </div>
+                        ))}
                     </div>
                     <div>
                         <button onClick={() => setIsOpen(!isOpen)} className='focus:outline-none'>
