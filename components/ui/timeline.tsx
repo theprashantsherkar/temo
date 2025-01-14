@@ -38,7 +38,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
     >
       <div className="w-full flex items-center justify-center flex-col  pt-16 px-4 md:px-8 lg:px-10">
         <motion.h2
-          className="text-lg md:text-4xl mb-4 text-black text-center dark:text-white font-bold "
+          className="text-4xl mb-4 text-black text-center dark:text-white font-bold "
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
@@ -68,14 +68,13 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
               >
                 {item.title}
               </h1> */}
-                
-              
+
             </div>
 
             <div className="relative pl-20 pr-4 md:pl-4 w-full">
-              <h3 className="md:hidden block text-2xl mb-4 text-left font-bold text-neutral-500 dark:text-neutral-500">
-                {item.title}
-              </h3>
+              <div className="flex justify-start items-start">
+                <img className="md:hidden block scale-50 self-start" src={item.title} alt={item.title} />
+              </div>
               {item.content}{" "}
             </div>
           </div>

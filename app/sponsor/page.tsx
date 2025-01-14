@@ -11,9 +11,9 @@ function Page() {
     return (
         <>
             <div className='sm:fixed w-full bg-black flex items-center justify-center gap-8 z-50 p-5    '>
-                <Link href={'https://djsunplugged.vercel.app'} className='flex items-center justify-center gap-9'>
-                    <Image src={'/logo.png'} alt='IETE-ISF' width={200} height={150} />
-                    <Image src={'/UNPLUGGED.png'} alt='IETE-ISF' width={250} height={200} className='sm:scale-125' />
+                <Link href={'https://djsunplugged.vercel.app'} className='flex items-center justify-center sm:gap-9'>
+                    <Image src={'/logo.png'} alt='IETE-ISF' width={200} height={150} className='scale-90'/>
+                    <Image src={'/UNPLUGGED.png'} alt='IETE-ISF' width={250} height={200} className='scale-90 sm:scale-125' />
                 </Link>
             </div>
             <div className='min-h-fit  sm:h-[130vh] gap-8 bg-black text-white flex flex-col items-center  justify-center'>
@@ -55,7 +55,7 @@ function Page() {
 export default Page;
 
 
-const poc: pocProps[] = [{
+export const poc: pocProps[] = [{
     name: "Utkarsh Lotiya",
     position: "Chairperson",
     contact: "+91 93220 34012",
@@ -64,7 +64,7 @@ const poc: pocProps[] = [{
     name: "Aneesh Joshi",
     position: "Vice Chairperson",
     contact: "+91 70454 91990",
-    email: "aneeshjpshi@gmail.com",
+    email: "aneeshjoshi@gmail.com",
 }, {
     name: "Nandini Mandekar",
     position: "Head of Marketing",
@@ -73,7 +73,7 @@ const poc: pocProps[] = [{
 
 }]
 
-interface pocProps {
+export interface pocProps {
     id?: number;
     name: string;
     position: string;

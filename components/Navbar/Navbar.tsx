@@ -14,7 +14,7 @@ function Navbar() {
                 <div className='flex items-center justify-between gap-6'>
                     {logos.map((item) => (
                         <div key={item.id}>
-                            <Link href={item.link} 
+                            <Link href={item.link}
                                 target='_blank' rel='noopener noreferrer'
                             >
                                 <img className={item.utilityClasses} src={item.logo} alt={item.alt} />
@@ -57,8 +57,8 @@ function Navbar() {
                         </button>
                     </div>
                 </div>
-                <div className={`${isOpen ? 'block fixed w-full' : 'hidden'} sm:hidden bg-black bg-opacity-50 text-white`}>
-                    <div className='flex flex-col items-center justify-center gap-6'>
+                <div className={`${isOpen ? 'block absolute w-full z-50' : 'hidden'} sm:hidden bg-black  text-white py-8`}>
+                    <div className='flex flex-col items-center justify-center gap-8'>
                         <a href='#timeline' className='text-lg font-semibold'>Timeline</a>
                         <a href='#prizepool' className='text-lg font-semibold'>Prizepool</a>
                         <a href='#faq' className='text-lg font-semibold'>FAQs</a>
@@ -76,24 +76,27 @@ export default Navbar;
 
 
 const logos: logoProps[] = [{
-    id:1,
-    link:"https://djsceietesf.wordpress.com",
-    logo: '/logo.png',
-    alt: 'DJS IETE-ISF',
-    utilityClasses:"h-[90px] w-[110px] scale-150 ml-6 py-4"
-}, {
-    id:2,
-    link:"https://djsce.ac.in",
-    logo: "/djsce.png",
-    alt: 'DJSCE',
-    utilityClasses:"h-[70px] w-[70px] ml-6"
-    }, {
-        id:3,
-    link:"",
+    id: 3,
+    link: "",
     logo: '/svkm.png',
     alt: 'SVKM',
-    utilityClasses:"h-[70px] w-[70px] "
-}];
+    utilityClasses: "h-[70px] w-[70px] hidden sm:block"
+},
+{
+    id: 1,
+    link: "https://djsceietesf.wordpress.com",
+    logo: '/logo.png',
+    alt: 'DJS IETE-ISF',
+    utilityClasses: "h-[90px] w-[110px] scale-150 ml-6 py-4"
+},
+{
+    id: 2,
+    link: "https://djsce.ac.in",
+    logo: "/djsce.png",
+    alt: 'DJSCE',
+    utilityClasses: "h-[70px] w-[70px] ml-6 hidden sm:block"
+}
+];
 
 
 interface logoProps {

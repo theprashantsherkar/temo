@@ -11,9 +11,8 @@ body {
 }
 
 .prizepoolBg{
-  background-image: url('/timelineBg2.jpg')  ;
-  backdrop-filter: blur(50px);
-
+  background-image: url('/threeCollage.jpg') ;
+  /* backdrop-filter: blur(50px); */
 }
 
 .heroBg{

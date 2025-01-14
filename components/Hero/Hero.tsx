@@ -17,7 +17,7 @@ export default function Hero() {
         <ImagesSlider images={images} className='h-screen'>
             <div className="flex items-center justify-center flex-col gap-6 z-50 w-full h-screen " >
                 <BoxReveal duration={0.5} boxColor='#5046e6'>
-                    <img alt="logo" className="oscillatey scale-50 h-[150px]" src="UNPLUGGED.png" />
+                    <img alt="logo" className="oscillatey scale-50 sm:h-[150px] " src="UNPLUGGED.png" />
                 </BoxReveal>
                 <BoxReveal duration={0.7} boxColor='#5046e6'>
 

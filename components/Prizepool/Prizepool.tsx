@@ -13,8 +13,8 @@ export default function Prizepool() {
     });
 
     return (
-        <div className="prizepool h-screen text-white bg-black prizepoolBg flex gap-6 flex-col items-center justify-center " id="prizepool">
-            <h1 className="text-3xl text-black font-semibold oscillatey my-7">Prizepool</h1>
+        <div className="prizepool sm:h-screen h-min sm:py-4 py-5 text-white bg-black prizepoolBg flex gap-6 flex-col items-center justify-center " id="prizepool">
+            <h1 className="text-3xl text-white font-semibold oscillatey pt-7">Prizepool</h1>
             <div>
                 <Badge label="1st Prize" image="/prize/first.png" />
             </div>

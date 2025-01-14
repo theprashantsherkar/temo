@@ -8,6 +8,7 @@ import Faq from '@/components/FAQ/Faq'
 // import Timeline from '@/components/Timeline/TimelineDemo'
 import TimelineDemo from '@/components/Timeline/TimelineDemo'
 import Sponsors from '@/components/sponsors/Sponsors'
+import Contact from '@/components/contact/Contact'
 
 
 
@@ -22,6 +23,7 @@ export default function Home() {
       <TimelineDemo />
       <Prizepool />
       <Faq />
+      <Contact/>
       <Footer />
     </div>
 
