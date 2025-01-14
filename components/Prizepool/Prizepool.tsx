@@ -1,6 +1,6 @@
 'use client';
 import Badge from "../custom/Badge";
-import React, { useEffect } from "react";
+import React from "react";
 import { ImagesSlider } from "../ui/images-slider";
 import "aos/dist/aos.css";
 
