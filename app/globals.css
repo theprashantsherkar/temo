@@ -11,7 +11,7 @@ body {
 }
 
 .prizepoolBg{
-  background-image: url('/threeCollage.jpg') ;
+  background-image: url('/heroBg.jpg');
   /* backdrop-filter: blur(50px); */
 }
 
