@@ -23,12 +23,12 @@ function Navbar() {
                     ))}
                 </div>
                 <div className='flex items-center j ustify-center gap-6'>
-                    <a href='/#timeline' className='text-lg font-semibold hover:text-sky-400 hover:translate-x-2 transition-all'>Timeline</a>
-                    <a href='/#prizepool' className='text-lg font-semibold hover:text-sky-400 hover:translate-x-2 transition-all'>Prizepool</a>
-                    <a href='/#faq' className='text-lg font-semibold hover:text-sky-400 hover:translate-x-2 transition-all'>FAQs</a>
-                    <a href='/#contact' className='text-lg font-semibold hover:text-sky-400 hover:translate-x-2 transition-all'>Contact Us</a>
-                    <a href='https://djsceietesf.wordpress.com' className='text-lg font-semibold hover:text-sky-400 hover:translate-x-2 transition-all'>About Us</a>
-                    <a href='/projects' className='text-lg font-bold hover:text-sky-400 hover:translate-x-2 transition-all'>Projects</a>
+                    <Link href='/#timeline' className='text-lg font-semibold hover:text-sky-400 hover:translate-x-2 transition-all'>Timeline</Link>
+                    <Link href='/#prizepool' className='text-lg font-semibold hover:text-sky-400 hover:translate-x-2 transition-all'>Prizepool</Link>
+                    <Link href='/#faq' className='text-lg font-semibold hover:text-sky-400 hover:translate-x-2 transition-all'>FAQs</Link>
+                    <Link href='/#contact' className='text-lg font-semibold hover:text-sky-400 hover:translate-x-2 transition-all'>Contact Us</Link>
+                    <Link href='https://djsceietesf.wordpress.com' className='text-lg font-semibold hover:text-sky-400 hover:translate-x-2 transition-all'>About Us</Link>
+                    <Link href='/projects' className='text-lg font-bold hover:text-sky-400 hover:translate-x-2 transition-all'>Projects</Link>
                 </div>
             </div>
             <div>
@@ -59,12 +59,12 @@ function Navbar() {
                 </div>
                 <div className={`${isOpen ? 'block absolute w-full z-50' : 'hidden'} sm:hidden bg-black  text-white py-8`}>
                     <div className='flex flex-col items-center justify-center gap-8'>
-                        <a href='/#timeline' className='text-lg font-semibold'>Timeline</a>
-                        <a href='/#prizepool' className='text-lg font-semibold'>Prizepool</a>
-                        <a href='/#faq' className='text-lg font-semibold'>FAQs</a>
-                        <a href='/#contact' className='text-lg font-semibold'>Contact Us</a>
-                        <a href='https://djsceietesf.wordpress.com' className='text-lg font-semibold'>About Us</a>
-                        <a href='/projects' className='text-lg font-bold'>Projects</a>
+                        <Link href='/#timeline' className='text-lg font-semibold'>Timeline</Link>
+                        <Link href='/#prizepool' className='text-lg font-semibold'>Prizepool</Link>
+                        <Link href='/#faq' className='text-lg font-semibold'>FAQs</Link>
+                        <Link href='/#contact' className='text-lg font-semibold'>Contact Us</Link>
+                        <Link href='https://djsceietesf.wordpress.com' className='text-lg font-semibold'>About Us</Link>
+                        <Link href='/projects' className='text-lg font-bold'>Projects</Link>
                     </div>
                 </div>
             </div>
