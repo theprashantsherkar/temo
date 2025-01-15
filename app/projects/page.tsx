@@ -4,7 +4,7 @@ import Navbar from '@/components/Navbar/Navbar'
 import React from 'react'
 import { motion } from 'framer-motion'
 
-function page() {
+function Page() {
     return (
         <>
             <Navbar />
@@ -31,4 +31,4 @@ function page() {
     )
 }
 
-export default page
+export default Page

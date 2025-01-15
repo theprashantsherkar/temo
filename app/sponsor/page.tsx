@@ -55,7 +55,7 @@ function Page() {
 export default Page;
 
 
-export const poc: pocProps[] = [{
+const poc: pocProps[] = [{
     name: "Utkarsh Lotiya",
     position: "Chairperson",
     contact: "+91 93220 34012",
