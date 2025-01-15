@@ -5,7 +5,6 @@ import './heroStyle.css'
 import BoxReveal from '@/components/ui/box-reveal'
 import '../../app/globals.css'
 import { ImagesSlider } from '../ui/images-slider'
-
 export default function Hero() {
 
     const images = [

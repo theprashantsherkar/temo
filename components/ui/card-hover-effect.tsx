@@ -13,7 +13,7 @@ export const HoverEffect = ({
     name: string;
     position: string;
     contact: string;
-    email: string;
+    email?: string;
   }[];
   className?: string;
 }) => {

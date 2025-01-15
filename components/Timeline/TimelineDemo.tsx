@@ -30,7 +30,7 @@ export default function TimelineDemo() {
             title: "/stations/andheri.jpg",
             content: (
                 <div className="flex flex-col items-start justify-center gap-9">
-                    <h1 className="text-3xl   font-bold text-black dark:text-neutral-500">Round 1: PPT Submission </h1>
+                    <h1 className="text-3xl font-bold text-black dark:text-neutral-500">Round 1: PPT Submission </h1>
                     <p className="text-black-800 dark:text-neutral-200 text-lg  font-medium mb-8">
                         Don’t miss the deadline on 14th February 2025!
 
@@ -45,7 +45,7 @@ export default function TimelineDemo() {
             title: "/stations/dadar.jpg",
             content: (
                 <div className="flex flex-col items-start justify-center gap-9">
-                    <h1 className="text-3xl   font-bold text-black dark:text-neutral-500">Round 2: The First Challenge Awaits </h1>
+                    <h1 className="text-3xl font-bold text-black dark:text-neutral-500">Round 2: The First Challenge Awaits </h1>
                     <p className="text-black-800 dark:text-neutral-200 text-lg  font-medium mb-8">
                         Round 2 beings on 8th March 2025, all shortlisted teams from Round 1 must report at 8:00 AM sharp to the venue to take on a task designed around the problem statement. <br />
 
@@ -75,7 +75,7 @@ export default function TimelineDemo() {
         },
     ];
     return (
-        
+
         <div className="w-full " id="timeline">
             <Timeline data={data} />
         </div>
