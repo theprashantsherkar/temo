@@ -27,7 +27,7 @@ export default function TimelineDemo() {
             ),
         },
         {
-            title: "/stations/andheri.jpg",
+            title: "/stations/andheri.png",
             content: (
                 <div className="flex flex-col items-start justify-center gap-9">
                     <h1 className="text-3xl font-bold text-black dark:text-neutral-500">Round 1: PPT Submission </h1>
