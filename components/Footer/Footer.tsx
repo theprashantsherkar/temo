@@ -45,7 +45,7 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <div className='p-3 text-white'>Made with ❤️ by DJS IETE</div>
+            <div className='p-3 text-white'>Made with ❤️ by DJSCE IETE-ISF</div>
         </footer>
     )
 };
