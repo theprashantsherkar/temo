@@ -6,15 +6,15 @@ import "aos/dist/aos.css";
 
 export default function Prizepool() {
     const images = [
-        "/threeCollage.jpg",
-        "/timelinebg2.jpg",
-        "/bridge.jpg",
+        "/prizepoolBg1.jpg",
+        "/prizepoolBg2.jpg",
+        "/prizepoolBg3.jpg",
     ];
 
     return (
         <ImagesSlider images={images}>
             <div className="prizepool  sm:h-screen h-min z-50  py-5 text-white   flex gap-6 flex-col items-center justify-center " id="prizepool">
-                <h1 className="text-3xl text-white font-semibold oscillatey pt-7 ">Prizepool</h1>
+                <h1 className="text-4xl text-white  oscillatey pt-7 font-extrabold glitch   ">Prizepool</h1>
                 <div>
                     <Badge label="INR 50,000" image="/prize/first.png" />
                 </div>

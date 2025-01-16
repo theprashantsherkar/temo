@@ -15,6 +15,19 @@ body {
   /* backdrop-filter: blur(50px); */
 }
 
+.bgTimelineColor{
+  /* background: linear-gradient(to bottom, rgb(139, 139, 230), rgb(158, 94, 179), rgb(139, 139, 230)); */
+background: linear-gradient(45deg, #d15995, #7749d3, #72eea4);
+background-size: 400% 400%;
+animation: gradientBG 1s ease infinite;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
 .heroBg{
   background-color: black;
   background: url('/heroBg.jpg') no-repeat center center/cover;
@@ -84,4 +97,33 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.glitch {
+  font-size: 5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  animation: glitch-text 1s infinite;
+}
+
+@keyframes glitch-text {
+  0%, 100% { text-shadow: 2px 2px #ff007f, -2px -2px #4a00e0; }
+  50% { text-shadow: -2px -2px #ff007f, 2px 2px #4a00e0; }
+}
+
+.glitch::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #ff007f;
+  z-index: -1;
+  animation: glitch-before 1s infinite;
+}
+
+@keyframes glitch-before {
+  0%, 100% { transform: translate(-2px, -2px); }
+  50% { transform: translate(2px, 2px); }
 }

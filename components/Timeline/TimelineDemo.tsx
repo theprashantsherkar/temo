@@ -12,7 +12,7 @@ export default function TimelineDemo() {
 
     const data = [
         {
-            title: "/stations/borivali.jpg",
+            title: "/stations/borivali.png",
             content: (
                 <div className="flex flex-col items-start justify-center gap-9">
                     <h1 className="text-3xl   font-bold text-black dark:text-neutral-500">Registration Starts</h1>
@@ -42,7 +42,7 @@ export default function TimelineDemo() {
             ),
         },
         {
-            title: "/stations/dadar.jpg",
+            title: "/stations/dadar.png",
             content: (
                 <div className="flex flex-col items-start justify-center gap-9">
                     <h1 className="text-3xl font-bold text-black dark:text-neutral-500">Round 2: The First Challenge Awaits </h1>
@@ -57,7 +57,7 @@ export default function TimelineDemo() {
             ),
         },
         {
-            title: "/stations/churchgate.jpg",
+            title: "/stations/churchgate.png",
             content: (
                 <div className="flex flex-col items-start justify-center gap-9">
                     <h1 className="text-3xl   font-bold text-black dark:text-neutral-500">Round 3: Demo Presentations & Mentoring</h1>

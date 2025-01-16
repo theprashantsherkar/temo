@@ -33,12 +33,12 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
 
   return (
     <div
-      className="w-full bg-gradient-to-tl from-purple-950  to-red-900 dark:bg-neutral-950 font-sans md:px-10"
+      className="w-full bg-gradient-to-t from-sky-400 to-purple-500 dark:bg-neutral-950 font-sans md:px-10"
       ref={containerRef}
     >
       <div className="w-full flex items-center justify-center flex-col  pt-16 px-4 md:px-8 lg:px-10">
         <motion.h2
-          className="text-4xl mb-4 text-black text-center dark:text-white font-bold "
+          className="text-4xl mb-4 text-black text-center glitch dark:text-white font-extrabold "
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
