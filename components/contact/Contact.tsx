@@ -32,6 +32,6 @@ const ContactUsPoc: pocProps[] = [{
     id: 3,
     name: "Utkarsh Lotiya",
     position: "Chairperson",
-    contact: "+91 82912 39229"
+    contact: "+91 93220 34012"
 
 }]
