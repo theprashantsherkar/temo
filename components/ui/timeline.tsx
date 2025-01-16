@@ -33,7 +33,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
 
   return (
     <div
-      className="w-full bg-gradient-to-t from-sky-400 to-purple-500 dark:bg-neutral-950 font-sans md:px-10"
+      className="w-full bg-gradient-to-t from-sky-400 to-purple-400 dark:bg-neutral-950 font-sans md:px-10"
       ref={containerRef}
     >
       <div className="w-full flex items-center justify-center flex-col  pt-16 px-4 md:px-8 lg:px-10">
