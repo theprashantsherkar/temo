@@ -21,12 +21,12 @@ export default Contact
 const ContactUsPoc: pocProps[] = [{
     id: 1,
     name: "Samay Mehta",
-    position: "VCP-Technical",
+    position: "Vice Chairperson - Technical",
     contact: "+91 79772 37204",
 }, {
     id: 2,
     name: "Aneesh Joshi",
-    position: "VCP-Admin",
+    position: "Vice Chairperson - Admin",
     contact: "+91 70454 91990"
 }, {
     id: 3,
