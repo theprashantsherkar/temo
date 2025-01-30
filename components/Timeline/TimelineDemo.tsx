@@ -17,7 +17,7 @@ export default function TimelineDemo() {
                 <div className="flex flex-col items-start justify-center gap-9">
                     <h1 className="text-3xl   font-bold text-black dark:text-neutral-500">Registration Starts</h1>
                     <p className="text-black-800 dark:text-neutral-200 text-lg  font-medium ">
-                        Registrations for <span className='text-sky-200'>UNPLUGGED 2.0</span> will be open from 12<sup>th</sup> January to 31<sup>st</sup>January 2025. <br />Take the first step with a 20% preview of the problem statement to ignite your ideas.
+                        Registrations for <span className='text-sky-200'>UNPLUGGED 2.0</span> will be open from 12<sup>th</sup> January to 8<sup>th</sup>February 2025. <br />Take the first step with a 20% preview of the problem statement to ignite your ideas.
 
                     </p>
 
@@ -32,7 +32,7 @@ export default function TimelineDemo() {
                 <div className="flex flex-col items-start justify-center gap-9">
                     <h1 className="text-3xl font-bold text-black dark:text-neutral-500">Round 1: PPT Submission </h1>
                     <p className="text-black-800 dark:text-neutral-200 text-lg  font-medium mb-8">
-                        Don’t miss the deadline on 31<sup>st</sup> January 2025!
+                        Don’t miss the deadline on 8<sup>th</sup> February 2025!
 
                     </p>
                     <p className="text-black-800 dark:text-neutral-200 text-lg  font-medium mb-8">
