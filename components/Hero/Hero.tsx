@@ -28,7 +28,7 @@ export default function Hero() {
                 </BoxReveal>
                 <BoxReveal duration={0.7} boxColor='#5046e6'>
                     <InteractiveHoverButton>
-                        <Link href={"/results.pdf"} target='blank'>Round 1 Results</Link>
+                        <Link href={"/Shortlisted Teams for UnPlugged 2.0 Round 2.pdf"} target='blank'>Round 1 Results</Link>
                   </InteractiveHoverButton>
                 </BoxReveal>
             </div>
