@@ -6,9 +6,10 @@ import Navbar from '@/components/Navbar/Navbar'
 import Prizepool from '@/components/Prizepool/Prizepool'
 import Faq from '@/components/FAQ/Faq'
 // import Timeline from '@/components/Timeline/TimelineDemo'
-import TimelineDemo from '@/components/Timeline/TimelineDemo'
+import TimelineDemo from  '@/components/Timeline/TimelineDemo'
 import Sponsors from '@/components/sponsors/Sponsors'
 import Contact from '@/components/contact/Contact'
+// import LastYearAtUnplugged from '@/components/carousel/CarouselDemo';
 
 
 
@@ -24,9 +25,8 @@ export default function Home() {
       <Faq />
       <Contact/>
       <Footer />
+      {/* <LastYearAtUnplugged /> */}
     </div>
-
-
   )
 }
 

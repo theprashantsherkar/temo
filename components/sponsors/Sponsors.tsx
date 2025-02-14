@@ -46,10 +46,10 @@ export default function Sponsors() {
     return (
         <div className="sponsors text-white p-10 h-[120vh] bg-black w-full flex flex-col items-center justify-center gap-4" id="sponsors">
             <h1 className="text-4xl font-semibold text-center">
-                Our Sponsors
+                Our Past Sponsors
             </h1>
             <p className="text-xl font-semibold text-center">
-                UNPLUGGED 2.0 is made possible thanks to our amazing sponsors.
+                UNPLUGGED is made possible thanks to our amazing sponsors.
             </p>
             <div className="relative flex min-h-fit py-14 w-full flex-col items-center justify-center overflow-hidden  bg-background md:shadow-xl bg-black">
                 <Marquee pauseOnHover className="[--duration:20s]">

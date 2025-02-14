@@ -7,8 +7,8 @@ interface qnaProps {
 export const qnaList1: qnaProps[] = [
     {
         id: 1,
-        question: "Accommodation of those who aren't advancing to Round 3:",
-        answer: 'Accommodation will be provided for participants not advancing to Round 3, but they will need to pay for it.  '
+        question: "What is the benefit of participating?",
+        answer: 'Participating in UnPlugged 2.0 provides an opportunity to enhance your technical skills, work on real-world problems, and showcase your innovative ideas. It’s also a chance to collaborate with like-minded peers while gaining practical experience'
     },
     {
         id: 2,

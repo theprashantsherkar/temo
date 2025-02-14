@@ -17,11 +17,11 @@ export default function TimelineDemo() {
                 <div className="flex flex-col items-start justify-center gap-9">
                     <h1 className="text-3xl   font-bold text-black dark:text-neutral-500">Registration Starts</h1>
                     <p className="text-black-800 dark:text-neutral-200 text-lg  font-medium ">
-                        Registrations for <span className='text-sky-200'>UNPLUGGED 2.0</span> will be open from 12<sup>th</sup> January to 8<sup>th</sup>February 2025. <br />Take the first step with a 20% preview of the problem statement to ignite your ideas.
+                        Registrations for <span className='text-black font-extrabold'>UNPLUGGED 2.0</span> will be open from 12<sup>th</sup> January to 8<sup>th</sup> February 2025. <br />Take the first step with a 20% preview of the problem statement to ignite your ideas.
 
                     </p>
 
-                    <Button label="Register Now" handler={() => router.push("https://unstop.com/p/unplugged-20-a-24-hour-hardware-hackathon-shri-vile-parle-kelavani-mandals-dwarkadas-j-sanghvi-college-of-engineering--1312122")}/>
+                    <Button isDisabled={true} label="Register Now" handler={() => router.push("https://unstop.com/p/unplugged-20-a-24-hour-hardware-hackathon-shri-vile-parle-kelavani-mandals-dwarkadas-j-sanghvi-college-of-engineering--1312122")}/>
 
                 </div>
             ),
