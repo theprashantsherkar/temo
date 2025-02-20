@@ -9,7 +9,7 @@ export default function Footer() {
         <footer className="flex flex-col   items-center justify-between  bg-sky-900 text-white text-center">
             <div className='flex sm:flex-row flex-col items-start justify-around gap-4  p-7 bg-sky-950 text-white text-center'>
                 <div className='w-full sm:w-1/3 flex items-center justify-start flex-col gap-3'>
-                    <Link href={'https://djsceietesf.wordpress.com/'} target='blank'><h1 className='text-xl font-semibold'>DJS IETE-ISF</h1></Link>
+                    <Link href={'https://djsceietesf.wordpress.com/'} target='blank'><h1 className='text-xl font-semibold'>DJSCE IETE-ISF</h1></Link>
                     <p>The IETE Students’ Forum of D. J. Sanghvi College of Engineering</p>
 
                 </div>
