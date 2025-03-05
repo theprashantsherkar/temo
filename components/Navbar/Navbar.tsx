@@ -75,27 +75,21 @@ function Navbar() {
 export default Navbar;
 
 
-const logos: logoProps[] = [{
-    id: 3,
-    link: "",
-    logo: '/svkm.png',
-    alt: 'SVKM',
-    utilityClasses: "h-[70px] w-[70px] hidden sm:block"
-},
-{
-    id: 1,
-    link: "https://djsceietesf.wordpress.com",
-    logo: '/logo.png',
-    alt: 'DJS IETE-ISF',
-    utilityClasses: "h-[90px] w-[110px] scale-150 ml-6 py-4"
-},
-{
-    id: 2,
-    link: "https://djsce.ac.in",
-    logo: "/djsce.png",
-    alt: 'DJSCE',
-    utilityClasses: "h-[70px] w-[70px] ml-6 hidden sm:block"
-}
+const logos: logoProps[] = [
+
+    {
+        id: 1,
+        link:"",
+        logo: '/iic2.png',
+        alt: 'IIC DJSCE',
+        utilityClasses: "h-[70px] w-[100px] scale-150 mx-6 py-4"
+    }, {
+        id: 2,
+        link: "https://djsceietesf.wordpress.com",
+        logo: '/logo.png',
+        alt: 'DJS IETE-ISF',
+        utilityClasses: "h-[90px] w-[110px] scale-150 ml-6 py-4"
+    }
 ];
 
 
